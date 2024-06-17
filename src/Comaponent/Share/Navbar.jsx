@@ -31,7 +31,7 @@ const navLink=<>
 
      <div className=" group  flex cursor-pointer flex-col" >
      
-     <Link> <li  className=" text-3xl mx-2 mt-2 text-green-400"  > মতামত </li> </Link>
+     <Link to='/opinion' > <li  className=" text-3xl mx-2 mt-2 text-green-400"  > মতামত </li> </Link>
      <span className="h-[3px] w-0 rounded-full bg-green-400  transition-all duration-300 group-hover:w-full" ></span>
      </div>
 
@@ -39,7 +39,7 @@ const navLink=<>
      <div className=" group  flex cursor-pointer flex-col" >
      
      
- <Link> <li  className=" text-3xl mx-2 mt-2  text-green-400"  > ঠিকানা </li> </Link>
+ <Link to='/address' > <li  className=" text-3xl mx-2 mt-2  text-green-400"  > ঠিকানা </li> </Link>
          <span className="h-[3px] w-0 rounded-full bg-green-400  transition-all duration-300 group-hover:w-full" ></span>
          </div>
 

@@ -9,6 +9,8 @@ import Login from "../Comaponent/Share/Login/Login";
 import SignUp from "../Comaponent/Share/SignUp/SignUp";
 import ErrorPage from "../Comaponent/Share/ErrorPage/ErrorPage"
 import ProductDetail from "../Pages/Home/Service/ProductDetail";
+import Opinion from "../Pages/Opinion/Opinion";
+import Address from "../Pages/Address/Address";
 
    export const router = createBrowserRouter([
     {
@@ -19,6 +21,14 @@ import ProductDetail from "../Pages/Home/Service/ProductDetail";
         {
             path:'/',
             element:<Home/>
+        },
+        {
+           path:'/opinion',
+           element:<Opinion></Opinion>
+        },
+        {
+          path:'/address',
+          element:<Address></Address> 
         },
         {
           path:'/login',

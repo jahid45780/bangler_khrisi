@@ -3,15 +3,19 @@ import { useState } from "react";
 import ProductCard from "./ProductCard";
 
 
+
 const Service = () => {
          
     const [product, setProduct]= useState([])
-
      useEffect(()=>{
          fetch('http://localhost:5000/all_Product')
          .then(res=> res.json())
          .then(data=> setProduct(data))
+         
+        
     },[])
+
+ 
 
     return (
         <div>
