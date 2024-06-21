@@ -6,6 +6,7 @@ import { FcGoogle } from "react-icons/fc";
 import { Link, useNavigate } from "react-router-dom";
 import useAuth from "../../../hooks/useAuth";
 import { imageUpload } from "../../../api/utils";
+import { saveUser } from "../../../api/auth";
 
 const SignUp = () => {
     const [showPassword, setShowPassword] = useState(false)
@@ -29,8 +30,8 @@ const SignUp = () => {
     // save user name and photo url
      await updateUserProfile(name,imageData?.data?.display_url)
     // server user data in database
-    // const dbResponse = await saveUser(result?.user)
-    // console.log(dbResponse);
+    const dbResponse = await saveUser(result?.user)
+    console.log(dbResponse);
     // result.user.email
     // access token 
     //  await getToken(result?.user?.email)
