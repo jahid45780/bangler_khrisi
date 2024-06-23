@@ -57,7 +57,7 @@ import Users from "../Pages/Users/Users";
         {
           path:'/detail/:id',
           element: <PrivateRoute> <ProductDetail></ProductDetail> </PrivateRoute> ,
-          loader: ({params})=> fetch(`http://localhost:5000/all_product/${params.id}`)
+          loader: ({params})=> fetch(`https://bangler-khrici-server.vercel.app/all_product/${params.id}`)
         }
       ]
     }

@@ -1,6 +1,11 @@
+
+
 const Opinion = () => {
     return (
         <div>
+
+
+
     <img src="https://i.ibb.co/tCdTYQd/photorealistic-view-cow-getting-used-agriculture.jpg" alt="" />
 
 

@@ -8,14 +8,14 @@ const Users = () => {
   const [user, setUser] = useState([])
 
   useEffect(()=> {
-      fetch('http://localhost:5000/users')
+      fetch('https://bangler-khrici-server.vercel.app/users')
       .then(res=> res.json())
       .then(data=> setUser(data))
   },[])
 
     return (
         <div>
-            <img src="../../../public/photo/7966603_3796236.jpg" alt="user people" />
+            <img src="https://i.ibb.co/jD3c9Tv/7966603-3796236.jpg" alt="user people" />
 
              <h1 className=" text-3xl text-center mt-3 font-bold"> বাংলার কৃষি এর সকল সদস্য তালিকা  </h1>
 

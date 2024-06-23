@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Shalider = () => {
     return (
         <div>
+          
                 <div className="carousel w-full h-[600px]  ">
             {/* slide 1 */}
   <div id="slide1" className="carousel-item relative w-full">

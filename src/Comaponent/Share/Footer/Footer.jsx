@@ -30,8 +30,8 @@ const Footer = () => {
 <div  className=" flex gap-1 -ml-7 "  >
 
 <img className=" w-16 h-16 rounded-box" src="https://i.ibb.co/PFzDgcS/beautiful-farmer-woman-checking-strawberry-farm.jpg" alt="" />
-<img className=" w-16 h-16 rounded-box" src="../../../../public/photo/middle-aged-asian-farmer-man.jpg" alt="" />
-<img className=" w-16 h-16 rounded-box" src="../../../../public/photo/portrait-senior-hardworking-farmer-agronomist-corn-field-checking-crops-before-harvest.jpg" alt="" />
+<img className=" w-16 h-16 rounded-box" src="https://i.ibb.co/1fGQbNd/middle-aged-asian-farmer-man.jpg" alt="" />
+<img className=" w-16 h-16 rounded-box" src="https://i.ibb.co/Pwd4qwJ/portrait-senior-hardworking-farmer-agronomist-corn-field-checking-crops-before-harvest.jpg" alt="" />
 </div>
 
 </nav> 
