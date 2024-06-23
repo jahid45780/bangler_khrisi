@@ -11,6 +11,10 @@ import ErrorPage from "../Comaponent/Share/ErrorPage/ErrorPage"
 import ProductDetail from "../Pages/Home/Service/ProductDetail";
 import Opinion from "../Pages/Opinion/Opinion";
 import Address from "../Pages/Address/Address";
+import AddProduct from "../Pages/AddProduct/AddProduct";
+import ProductSec from "../Pages/AddProduct/ProductSec";
+import PrivateRoute from "./PrivateRoute";
+import Users from "../Pages/Users/Users";
 
    export const router = createBrowserRouter([
     {
@@ -31,6 +35,18 @@ import Address from "../Pages/Address/Address";
           element:<Address></Address> 
         },
         {
+          path:'/AddProduct',
+          element:<PrivateRoute> <AddProduct></AddProduct> </PrivateRoute>
+        },
+        {
+          path:'/seeProduct',
+          element:<PrivateRoute> <ProductSec></ProductSec>  </PrivateRoute> 
+        },
+        {
+          path:'/users',
+          element:<PrivateRoute> <Users></Users> </PrivateRoute>
+        },
+        {
           path:'/login',
           element:<Login/>
         },
@@ -40,7 +56,7 @@ import Address from "../Pages/Address/Address";
         },
         {
           path:'/detail/:id',
-          element:<ProductDetail></ProductDetail>,
+          element: <PrivateRoute> <ProductDetail></ProductDetail> </PrivateRoute> ,
           loader: ({params})=> fetch(`http://localhost:5000/all_product/${params.id}`)
         }
       ]

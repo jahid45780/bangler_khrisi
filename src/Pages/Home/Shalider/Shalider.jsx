@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Shalider = () => {
@@ -13,8 +14,8 @@ const Shalider = () => {
             <h2 className=" text-4xl font-bold text-green-400" > একজন সফল কৃষক হতে হলে প্রথমে  <br /> মাটির প্রকৃতি বুঝতে হবে  </h2>
             <p className=" text-xl text-green-400" >মানুষ বুঝতে পারল এসব ফসলের জন্য নরম মাটি এবং পানি খুবই প্রয়োজনীয়। মানুষ চিন্তা করল মাটি নরম করার কাজটি করা সম্ভব যদি মাটি খুঁচিয়ে দেওয়ার মতো কোনো হাতিয়ার ব্যবহার করা যায়</p>
             <div>
-            <button className="btn btn-primary mr-5"> পরিষেবা  </button>
-            <button className="btn btn-outline btn-secondary">পণ্য</button>
+            <button className="btn btn-primary mr-5"> <Link to='/addProduct' > পণ্য যোগ করুন </Link>  </button>
+            <button className="btn btn-outline btn-secondary"> <Link to='/seeProduct' > পণ্য দেখুন </Link> </button>
             </div>
          </div>
 
@@ -34,8 +35,8 @@ const Shalider = () => {
             <h2 className=" text-4xl font-bold text-green-400" >  জীবন মাটির উপর নির্ভর করে, কারণ মাটি এবং  <br /> জীবন এক অপরের পরিপূরক </h2>
             <p className=" text-xl text-green-400" >মানুষ বুঝতে পারল এসব ফসলের জন্য নরম মাটি এবং পানি খুবই প্রয়োজনীয়। মানুষ চিন্তা করল মাটি নরম করার কাজটি করা সম্ভব যদি মাটি খুঁচিয়ে দেওয়ার মতো কোনো হাতিয়ার ব্যবহার করা যায়</p>
             <div>
-            <button className="btn btn-primary mr-5"> পরিষেবা  </button>
-            <button className="btn btn-outline btn-secondary">পণ্য</button>
+            <button className="btn btn-primary mr-5"> <Link to='/addProduct' > পণ্য যোগ করুন </Link>  </button>
+            <button className="btn btn-outline btn-secondary"> <Link to='/seeProduct' > পণ্য দেখুন </Link> </button>
             </div>
          </div>
 
@@ -55,8 +56,8 @@ const Shalider = () => {
             <h2 className=" text-4xl font-bold text-green-400" >  মাটির প্রতি যথাযথ সম্মান না থাকলে সুস্থ ও  <br /> সুন্দর সমাজ গড়ে তোলা অসম্ভব</h2>
             <p className=" text-xl text-green-400" > মানুষ বুঝতে পারল এসব ফসলের জন্য নরম মাটি এবং পানি খুবই প্রয়োজনীয়। মানুষ চিন্তা করল মাটি নরম করার কাজটি করা সম্ভব যদি মাটি খুঁচিয়ে দেওয়ার মতো কোনো হাতিয়ার ব্যবহার করা যায় </p>
             <div>
-            <button className="btn btn-primary mr-5"> পরিষেবা  </button>
-            <button className="btn btn-outline btn-secondary">পণ্য</button>
+            <button className="btn btn-primary mr-5"> <Link to='/addProduct' > পণ্য যোগ করুন </Link>  </button>
+            <button className="btn btn-outline btn-secondary"> <Link to='/seeProduct' > পণ্য দেখুন </Link> </button>
             </div>
          </div>
      </div>
@@ -76,8 +77,8 @@ const Shalider = () => {
             <h2 className=" text-4xl font-bold text-green-400" >  যেখানে মাটি, সেখানে মানুষ জন্মায়,  <br /> আগাছা হোক বা ফুল হোক </h2>
             <p className=" text-xl text-green-400" >মানুষ বুঝতে পারল এসব ফসলের জন্য নরম মাটি এবং পানি খুবই প্রয়োজনীয়। মানুষ চিন্তা করল মাটি নরম করার কাজটি করা সম্ভব যদি মাটি খুঁচিয়ে দেওয়ার মতো কোনো হাতিয়ার ব্যবহার করা যায়</p>
             <div>
-            <button className="btn btn-primary mr-5"> পরিষেবা </button>
-            <button className="btn btn-outline btn-secondary">পণ্য</button>
+            <button className="btn btn-primary mr-5"> <Link to='/addProduct' > পণ্য যোগ করুন </Link>  </button>
+            <button className="btn btn-outline btn-secondary"> <Link to='/seeProduct' > পণ্য দেখুন </Link> </button>
             </div>
          </div> 
 

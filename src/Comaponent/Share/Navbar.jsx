@@ -49,7 +49,7 @@ const navLink=<>
 
     return (
         <div>
-      <div className="navbar fixed z-10 bg-opacity-20 bg-base-100">
+      <div className="navbar fixed z-10 bg-opacity-20 bg-black ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -71,6 +71,8 @@ const navLink=<>
     </ul>
   </div>
   <div className="navbar-end">
+
+       <p className=" text-xl mr-3 font-bold text-white " > <Link to='/users' > সদস্যগণ </Link> </p>
           
           {
                    user ? (<div className="dropdown  dropdown-end">
